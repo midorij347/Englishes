@@ -38,7 +38,7 @@ class SecondActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 runOnUiThread {
                     println("API結果: $result")
 
-                    // ✅ 保存処理を追加
+                
                     val db = Room.databaseBuilder(
                         applicationContext,
                         AppDatabase::class.java,
