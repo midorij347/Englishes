@@ -21,8 +21,7 @@ import java.util.*
 
 class SecondActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private val client = OkHttpClient()
-    private val apiKey = "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" // ← 本物のAPIキーに変更してください
-    private lateinit var tts: TextToSpeech
+    private val apiKey = ""
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
